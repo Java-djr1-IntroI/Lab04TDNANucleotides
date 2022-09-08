@@ -24,27 +24,39 @@ the length of a string is the number of symbols that it contains.
 An example of a length 21 DNA string (whose alphabet contains the symbols 'A', 'C', 'G', and 'T') is 
 "ATGCTTCAGAAAGGTCTTACG."
 
-Given: A DNA string s of length at most 1000 nt (nucleotides).
+Input from the keyboard: A DNA string s of length at most 1000 nt (nucleotides).
 
-Return: Four integers (separated by one space) counting the respective number of times that the symbols 
+Output to the screen: The number of times that the symbols 
 'A', 'C', 'G', and 'T' occur in s.
 
-**Sample Dataset**
+**Sample Input**
 <pre>
 AGCTTTTCATTCTGACTGCAACGGGCAATATGTCTCTGTGTGGATTAAAAAAAGAGTGTCTGATAGCAGC
 </pre>
 
 **Sample Output**
 <pre>
-20 12 17 21
+A's: 20 
+C's: 12 
+G's: 17 
+T's: 21
 </pre>
 
-Write a program that displays a menu allowing the user the ability to select one of the four gases. 
-The program is to ask the user to enter the time it took (in seconds) for the sound to travel 
-from the source to the detection location. The program is to report how far away (in meters) 
-the source of the sound is from the detection location.
+Write a program that allows the user the ability to enter a DNA string and outputs the occurrences of A's, C's, G's and T's as shown above. For this assignment you will need to use two string methods charAt () and length (). Here is an example:
 
+<pre>
+String s = "ACGTT";
+int i = 1;
+System.out.println ("" + s.charAt (i) + s.length ());
+</pre>
 
+produces the output:
+
+<pre>
+C5
+</pre>
+
+Hopefully from this example, you can see how to use s.charAt (i) inside of a loop and check each character in the string.
 
 1.	Research how to output the values to 2 decimal places.
 
