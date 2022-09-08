@@ -78,5 +78,5 @@ Hopefully from this example, you can see how to use s.charAt (i) inside of a loo
         you typed everything correctly. Be aware that C++ is
         case-sensitive.
 
-2.  **An electronic pdf (punetidLab04SpeedOfSound.pdf) 
+2.  **An electronic pdf (punetidLab04DNA.pdf) 
 of your program is to be emailed to ryandj@pacificu.edu**
