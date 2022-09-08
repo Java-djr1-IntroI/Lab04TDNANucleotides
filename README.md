@@ -58,8 +58,6 @@ C5
 
 Hopefully from this example, you can see how to use s.charAt (i) inside of a loop and check each character in the string.
 
-1.	Research how to output the values to 2 decimal places.
-
 **To complete this assignment you must submit the following:**
 
 1.  **An electronic Solution of your program on GitHub**
